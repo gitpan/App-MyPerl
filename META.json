@@ -1,10 +1,10 @@
 {
-   "abstract" : "Your very own set of perl defaults, on a per project basis",
+   "abstract" : "Your very own set of perl defaults, on a global or per",
    "author" : [
       "mst - Matt S. Trout (cpan:MSTROUT) <mst@shadowcat.co.uk>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.112621",
    "license" : [
       "perl_5"
    ],
@@ -22,23 +22,24 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0"
+            "ExtUtils::MakeMaker" : 0
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0"
+            "ExtUtils::MakeMaker" : 0
          }
       },
       "runtime" : {
          "requires" : {
             "File::Which" : "1.09",
             "IO::All" : "0.46",
+            "Module::Runtime" : "0.013",
             "Moo" : "1.000008",
             "lib::with::preamble" : "0.001"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.001001"
+   "version" : "0.002000"
 }

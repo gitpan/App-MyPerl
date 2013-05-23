@@ -9,11 +9,21 @@ examples/lib/UndefFail.pm
 examples/t/one.t
 lib/App/MyPerl.pm
 lib/App/MyPerl/Rewrite.pm
+lib/App/MyPerl/Role/Script.pm
 lib/App/MyProve.pm
+lib/if/minus_e.pm
 maint/Makefile.PL.include
 Makefile.PL
 MANIFEST			This list of files
+t/env.t
+t/global/always/dev-modules
+t/global/always/modules
+t/global/defaults/dev-modules
+t/global/defaults/modules
 t/myperl.t
+t/precedence.t
+t/project/dev-modules
+t/project/modules
 t/root/modules
 META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)
