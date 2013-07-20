@@ -25,6 +25,7 @@ t/precedence.t
 t/project/dev-modules
 t/project/modules
 t/root/modules
+t/root/script-modules
 META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)
 README                                   README file (added by Distar)

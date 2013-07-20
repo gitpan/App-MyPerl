@@ -23,4 +23,4 @@ requires:
   Module::Runtime: 0.013
   Moo: 1.000008
   lib::with::preamble: 0.001
-version: 0.002000
+version: 0.003000

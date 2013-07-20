@@ -125,8 +125,14 @@ TUTORIAL
 
     For this, add "-indirect" in "$project_dir/.myperl/dev-modules".
 
+    To specify modules loaded only into the top level script, prepend
+    "script-" to the file name - so "$project_dir/.myperl/script-modules"
+    specifies modules only used for the top level script, and
+    "script-dev-modules" the same but not rewritten onto scripts when
+    myperl-rewrite is invoked.
+
     And lastly, you can add "if::minus_e=Some::Module" in
-    "$MYPERL_HOME/defaults/dev-modules" for having "Some::Module"
+    "$MYPERL_HOME/defaults/script-dev-modules" for having "Some::Module"
     conveniently preloaded for <myperl -e '...'> oneliners - see if::minus_e
     for how this behaves in detail.
 
